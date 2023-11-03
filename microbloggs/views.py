@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def home(request): #veiw function takes request as an argument (http request information)
+    return render(request, 'home.html')
